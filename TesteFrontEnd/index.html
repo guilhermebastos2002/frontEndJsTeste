@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul class="links-nav">
+                <li><a class="comidas-nav" href="/comidas">Comidas</a></li>
+                <li><a class="bebidas-nav" href="/bebidas">Bebidas</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="titulo">
         <p>Cardápio</p>
     </div>
@@ -18,18 +26,18 @@
         </div>
         <div class="quadrado" data-item="milkshake">
             <img src="https://tse1.mm.bing.net/th/id/OIP.QeWyV0_3JPNZs4rsQa6-lAHaHa?r=0&cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3">
-            <p>MilkShakes</p>
+            <p>MilkShake</p>
             <p>R$15,00</p>
         </div>
-        <div class="quadrado">
-            <img src="https://churrasco.coz.br/wp-content/uploads/2021/01/hamburguer-gourmet.jpg">
-            <p>Hamburguer</p>
-            <p>R$20,00</p>
+        <div class="quadrado" data-item="pizza">
+            <img src="https://media.istockphoto.com/id/2023102269/pt/foto/pizza-topped-with-fresh-basil-tomato-and-cheese-on-top-of-wooden-platter.jpg?s=612x612&w=0&k=20&c=6E1WroSOoOw2b8UX0okpCyFxmGO7DUnw2J4w54awdBI=">
+            <p>Pizza</p>
+            <p>R$30,00</p>
         </div>
-        <div class="quadrado">
-            <img src="https://churrasco.coz.br/wp-content/uploads/2021/01/hamburguer-gourmet.jpg">
-            <p>Hamburguer</p>
-            <p>R$20,00</p>
+        <div class="quadrado" data-item="hotdog">
+            <img src="https://t4.ftcdn.net/jpg/05/04/79/85/360_F_504798531_rvLu6lD1wTeeF5SVvWJhIOyyKh4ib3nd.jpg">
+            <p>Hot-Dog</p>
+            <p>R$10,00</p>
         </div>
         <div class="quadrado">
             <img src="https://churrasco.coz.br/wp-content/uploads/2021/01/hamburguer-gourmet.jpg">
@@ -46,7 +54,7 @@
                 <div class="titulo-modal" id="titulo-modal">
                     <p>Escolha o sabor:</p>
                 </div>
-                <div class="botoes-modal">
+                <div class="botoes-modal" id="botoes-modal">
                     
                 </div>
             </div>
